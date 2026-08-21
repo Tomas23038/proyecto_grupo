@@ -1,24 +1,51 @@
-# proyecto_grupo
+# Proyecto Grupo
 
-Integrantes del grupo: 
-Kevin Ardila Riobo
-Gabriel Ricardo Bermudez Arias
-Tomas Zambrano Brochero 
+Repositorio de trabajo en equipo para el Laboratorio 1 de Principios de Desarrollo de Software (Pontificia Universidad Javeriana). El proyecto practica flujo de colaboración con Git y GitHub: ramas por integrante, pull requests, resolución de conflictos y comparación entre merge y rebase.
 
-Descripcion del proyecto:
-Introduccion al trabajo en equipo por medio de Git, instaladolo y usando comandos basicos para crear archivos y generar conflictos en busca de solucionarlos e identificar el motivo.
+## Integrantes
 
-Comandos usados:
-git --version: Revisa la version de git que esta instalada en el computador.
-git config --global user.name: Pide el usuario de git para poder hacer el loggin en la computadora local.
-git config --global user.name: Pide el correo de git para poder hacer el loggin en la computadora local.
-winget install --id GitHub.cli: Manda al usuario al navegador para autenticar su cuenta en windows.
-sudo apt install gh: Manda al usuario al navegador para autenticar su cuenta en Linux.
-gh auth login:
-gh auth status
-git clone: clona un repositorio que este en la pagina de github.com.
-cd nombre: Entra a la carpeta nombre.
-git branch --show-current: Muestra la rama actual en la que estamos.
-mkdir: Crea carpetas vacias
-code .: Abre Visual studio Code creando o abriendo un archivo.
-git status:  
+- [Nombre completo 1] — [usuario de GitHub]
+- [Nombre completo 2] — [usuario de GitHub]
+- [Nombre completo 3] — [usuario de GitHub]
+
+## Enlace al repositorio
+
+[https://github.com/USUARIO/proyecto_grupo](https://github.com/USUARIO/proyecto_grupo)
+
+## Comandos utilizados
+
+| Comando | Propósito |
+|---|---|
+| `git clone URL` | Descargar una copia completa del repositorio remoto |
+| `git config --global user.name "..."` | Configurar el nombre con el que aparecen los commits |
+| `git config --global user.email "..."` | Configurar el correo con el que aparecen los commits |
+| `git status` | Ver qué archivos cambiaron y en qué estado están |
+| `git add .` | Preparar los cambios para el próximo commit |
+| `git commit -m "..."` | Guardar los cambios preparados en el historial local |
+| `git push origin rama` | Subir los commits locales a GitHub |
+| `git pull origin main` | Traer y aplicar los cambios que otros subieron a main |
+| `git checkout -b rama` | Crear una rama nueva y moverse a ella |
+| `git checkout rama` | Moverse a una rama que ya existe |
+| `git branch --show-current` | Ver en qué rama se está parado |
+| `git merge main` | Integrar los cambios de otra rama en la actual |
+| `git rebase main` | Reaplicar los commits de la rama actual sobre la punta de main |
+| `git log --oneline --graph --all --decorate` | Mostrar el historial en forma de árbol |
+| `gh auth login` | Autenticar el computador con GitHub |
+
+## Flujo de trabajo
+
+1. Cada integrante clona el repositorio y crea su propia rama (`feature-nombre`).
+2. Se hacen commits en la rama personal y se suben a GitHub.
+3. Se abre un pull request hacia `main` y otro integrante lo revisa y aprueba.
+4. Los conflictos de merge se resuelven manualmente antes de integrar.
+5. Se compara el historial resultante de merge contra el de rebase (ver informe).
+
+## Estructura del proyecto
+
+```
+proyecto_grupo/
+├── src/
+├── docs/
+├── tests/
+└── index.html
+```
