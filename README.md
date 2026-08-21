@@ -4,13 +4,13 @@ Repositorio de trabajo en equipo para el Laboratorio 1 de Principios de Desarrol
 
 ## Integrantes
 
-- [Nombre completo 1] — [usuario de GitHub]
-- [Nombre completo 2] — [usuario de GitHub]
-- [Nombre completo 3] — [usuario de GitHub]
+- [Kevin Ardila Riobo] — [KevinArdila26]
+- [Gabriel Ricardo Bermudez Arias] — [Gabo4321]
+- [Tomas Zambrano Brochero] — [Tomas23038]
 
 ## Enlace al repositorio
 
-[https://github.com/USUARIO/proyecto_grupo](https://github.com/USUARIO/proyecto_grupo)
+[https://github.com/Tomas23038/proyecto_grupo](https://github.com/Tomas23038/proyecto_grupo)
 
 ## Comandos utilizados
 
